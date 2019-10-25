@@ -29,11 +29,11 @@ class Quizbrain{
         a:true)
 ];
 
-  getQuestion(int n)
+  String getQuestion(int n)
   {
     return _questionBank[n].question;
   }
-  getAnswer( int n)
+ bool getAnswer( int n)
   {
     return _questionBank[n].answer;
   }
